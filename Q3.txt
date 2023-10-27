@@ -1,0 +1,6 @@
+Usin a 3x3 average filter on two pics with the same start histogram 
+can change their histograms. This is because the averaging process moves 
+pixel values around, making similar pixels even more alike, and 
+creating a more balanced distribution of values. 
+This leads to altered histograms due to the smoothing, 
+equalization, and normalization effects of the filter.
